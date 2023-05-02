@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-left: 160px;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+
+h1{
+    margin-right: 160px;
+    margin-top: 10px;
+}
+
+
+.regalo{
+    display: flex;
+    margin: 150px 200px 0px 300px;
+    width: 550px;
+    height: 680px;
+    border-radius: 2%;
+}
+
+.dos{
+    border: gray solid 1px;
+    background-color: transparent;
+    margin-top: 160px;
+    border-radius: 10px;
+}
+
+
+.www{
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left:50px;
+    margin-right: 50px;
+    
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;    
+}
+
+.google{
+    width: 40px;
+    background-color: transparent;
+    border: gray solid 1px;
+    border-radius: 15%;
+    padding: 5px 20px 5px 20px;
+    margin-right: 5px;
+}
+
+.apple{
+    width: 40px;
+    background-color: transparent;
+    border: gray solid 1px;
+    border-radius: 15%;
+    opacity: 0,3;
+    padding: 5px 20px 5px 20px;
+}
+
+.facebook{
+    width: 40px;
+    background-color: transparent;
+    border: gray solid 1px;
+    border-radius: 15%;
+    padding: 5px 20px 5px 20px;
+    margin-right: 5px;
+   
+}
+
+
+.parrafo{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: rgb(110, 110, 110);
+    display: inline-block;
+    position: relative;
+}
+
+
+.email{
+    display: inline-block;
+    padding: 8px 23px 8px 23px;
+    background-color:#FA7141;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 14%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email:hover{
+    background-color: white;
+    border: #FA7141 solid 1px;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+.parrafo::after, .parrafo::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: gray;
+    top: 8px;
+}
+
+.parrafo::before{
+    left: -110px;
+}
+
+
+.parrafo::after{
+    right: -110px;
+}
+
+.ttt{
+    display: block;
+    margin-left: -15px;
+    margin-bottom: 15px;
+    margin-top: -50;
+
+}
+
+.error{
+    position: relative;
+
+}
+
+.celular{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 8px 20px 8px 20px ;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+.formulario{
+    font-family:'Open Sans', sans-serif;
+    margin-top: 10px;
+    
+    
+
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+input{
+    height: 45px;
+    width: 350px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+
+.pa{
+    margin-top: 1px;
+    position: relative;
+    color: rgb(56, 56, 56);
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family:'Open Sans', sans-serif ;
+}
+
+
+.ojo{
+    font-size: 25px;
+    margin-left: 320px;
+    position: absolute;
+    margin-bottom: -20px;
+    margin-top: 125px;
+}
+
+.boton{
+    padding: 15px 70px 15px 70px;
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: 0px;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    color: white;
+    border: none;
+    background-color: #FA7141;
+    border-radius: 10%;
+    font-family:'Open Sans', sans-serif ;
+}
+
+.boton:hover{
+    background-color: white;
+    border: #FA7141 solid 1px;
+    color: black;
+    font-size: 18px;
+}
+
+
+.cuenta{
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(0, 0, 0) ;
+}
+
+
+.now{
+    margin-left: 165px;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FA7141;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+a.boton {
+    display: inline-block;
+    padding: 8px 23px 8px 23px;
+    background-color:#FA7141;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 14%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif
+  }
+
+
+  
